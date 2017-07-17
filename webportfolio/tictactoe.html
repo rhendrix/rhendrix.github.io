@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Tic Tac Toe</title>
+	<link rel="stylesheet" href="tictactoe.css" type="text/css">
+	<script src="tictactoe.js"></script>
+</head>
+<body>
+	<button onclick="startGame('O')">Start Game as O</button>
+	<button onclick="startGame('X')">Start Game as X</button>
+	<table>
+		<tr>
+			<td id="c0" onclick="playerClick(0);"></td>
+			<td id="c1" onclick="playerClick(1);"></td>
+			<td id="c2" onclick="playerClick(2);"></td>
+		</tr>
+		<tr>
+			<td id="c3" onclick="playerClick(3);"></td>
+			<td id="c4" onclick="playerClick(4);"></td>
+			<td id="c5" onclick="playerClick(5);"></td>
+		</tr>
+		<tr>
+			<td id="c6" onclick="playerClick(6);"></td>
+			<td id="c7" onclick="playerClick(7);"></td>
+			<td id="c8" onclick="playerClick(8);"></td>
+		</tr>
+	</table>
+	<button onclick="window.location.reload(false);">Reset</button>
+</body>
+</html>

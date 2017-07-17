@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Calculator</title>
+	<link rel="stylesheet" href="calculator.css" type="text/css">
+	<script src="calculator.js"></script>
+</head>
+<body>
+	<div id="content">
+		<div id="expBox"><span id="exp"></span></div>
+		<br>
+		<button class="numButton" onclick="newInput('7');">7</button>
+		<button class="numButton" onclick="newInput('8');">8</button>
+		<button class="numButton" onclick="newInput('9');">9</button>
+		<button class="numButton" onclick="newInput('/');">/</button>
+		<br>
+		<button class="numButton" onclick="newInput('4');">4</button>
+		<button class="numButton" onclick="newInput('5');">5</button>
+		<button class="numButton" onclick="newInput('6');">6</button>
+		<button class="numButton" onclick="newInput('*');">*</button>
+		<br>
+		<button class="numButton" onclick="newInput('1');">1</button>
+		<button class="numButton" onclick="newInput('2');">2</button>
+		<button class="numButton" onclick="newInput('3');">3</button>
+		<button class="numButton" onclick="newInput('-');">-</button>
+		<br>
+		<button class="zeroButton" onclick="newInput('0');">0</button>
+		<button class="numButton" onclick="newInput('.');">.</button>
+		<button class="numButton" onclick="newInput('+');">+</button>
+		<br>
+		<button class="clearButton" onclick="clearInput();">Clear</button>
+		<button class="submitButton" onclick="submitInput();">Submit</button>
+	</div>
+</body>
+</html>

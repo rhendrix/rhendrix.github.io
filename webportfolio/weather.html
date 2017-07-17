@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="weather.css" type="text/css">
+	<script src="weather.js"></script>
+	<meta charset="UTF-8">
+	<title>Local Weather</title>
+</head>
+<body>
+	<div id="content">
+		<h1>Local Weather</h1>
+		<p id="FTemp"></p>
+		<p id="CTemp"></p>
+		<br>
+		<br>
+		<span id="FBut" onClick="toF();">To Fahrenheit</span>
+		<span id="CBut" onClick="toC();">To Celsius</span>
+		<script>getLocation();</script>
+	</div>
+</body>
+</html>

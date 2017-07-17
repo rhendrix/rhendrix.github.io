@@ -1,0 +1,101 @@
+<html>
+<head>
+	<link rel="stylesheet" href="index.css" type="text/css">
+</head>
+<body>
+	<div id="navbar">
+		<h3 id="navtitle">Menu</h3>
+		<h3><a class="navlink" href="#projects">Projects</a></h3>
+		<h3><a class="navlink" href="#webportfolio">Web Portfolio</a></h3>
+		<h3><a class="navlink" href="#links">Links</a></h3>
+	</div>
+
+	<div id="content">
+		<h2 id="projects">Projects</h2>
+		<p class="description">
+		Below are a list of projects I have worked on with links to the source code on Github and descriptions of the projects. All projects can be found on my <a href="http://www.github.com/rhendrix">Github</a>. Web-based projects can be found in the "Web Portfolio" section of this page.
+		</p>
+		<h3><a href="https://github.com/rhendrix/HTTP-Server">HTTP Server</a></h3>
+		<p class="description">
+			A simple Linux HTTP server. Distributes jobs to a fixed-size pool of worker threads. The default page is "index.html" in the directory where the server is called. Can send images, audio, and video. Written in C.
+		</p>
+		<h3><a href="https://github.com/rhendrix/Markdown-Converter">Markdown Converter</a></h3>
+		<p class="description">
+			Converts a Markdown document (Github style) into either an html document or a latex file. Supports links and images. Written in Python. 
+		</p>
+		<h3><a href="https://github.com/rhendrix/Symbolic-Differentiator">Symbolic Differentiator</a></h3>
+		<p class="description">
+			A symbolic differentiator. Uses the shunting-yard algorithm for parsing. Written in Java.
+		</p>
+		<h3><a href="https://github.com/rhendrix/Image-Viewer">Image Viewer</a></h3>
+		<p class="description">
+			An image viewer for viewing designed for viewing images as "galleries." Images can be scrolled either with the mouse or keyboard. The next image in a directory can be viewed by clicking the onscreen buttons or using the left and right arrow keys. The space bar can be used to scroll the image or to go the next image if the current image is unable to be scrolled further. The images are displayed in "Natural Order" (e.g. "2.png" comes before "10.png"). Scrolling uses a simple smooth scroll algorithm. Written in Java. 
+		</p>
+		<h3><a href="https://github.com/rhendrix/Image-Editor">Image Editor</a></h3>
+		<p class="description">
+			Simple image editor. Has tools for drawing lines and filling sections of the image based on surrounding colors. Written in Java. 
+		</p>
+		<h3><a href="https://github.com/rhendrix/Queue-Simulator">Queue Simulator</a></h3>
+		<p class="description">
+			A checkout queue simulator. Written in C++.
+		</p>
+		<h3><a href="https://github.com/rhendrix/Linux-Shell">Linux Shell</a></h3>
+		<p class="description">
+			A Linux shell. Written in C.
+		</p>
+		<h2 id="webportfolio">Web Portfolio</h2>
+		<h3><a href="./webportfolio/calculator.html">Calculator</a></h3>
+		<img src="./images/calculator.png">
+		<p class="description">
+			A basic calculator app. Can evaluate expressions, not just individual operations. Designed to look like an old terminal. 
+		</p>
+		<h3><a href="./webportfolio/pomodoro.html">Pomodoro Timer</a></h3>
+		<img src="./images/pomodoro.png">
+		<p class="description">
+			A pomodoro timer. When the "session" is over a break starts. Likewise, when the break is over a new session starts. The timer can be reset by clicking it. The lengths of both the session and the break timers can be customized. The timer is represented graphically by a green circle that turns red as it ticks down. This is drawn on an html5 canvas element.
+		</p>
+		<h3><a href="./webportfolio/quotemachine.html">Random Quote Machine</a></h3>
+		<img src="./images/quotes.png">
+		<p class="description">
+		Uses the <a href="https://forismatic.com/en/api/">Forismatic API</a> to retrieve and display a random quote. There is a button to display another quote and one to tweet the currently displayed quote, which uses Twitter's web intents. 
+		</p>
+		<h3><a href="./webportfolio/simon.html">Simon Game</a></h3>
+		<img src="./images/simon.png">
+		<p class="description">
+			A web version of the electronic game Simon. The game flashes the buttons in a random order and the user has to press the buttons in the same order. By default, if the player fails to do so, the game will flash the same sequence again and give them another chance. If the game is set to strict mode it will reset from the beginning if the player fails. Pressing the start button again will manually reset the game. The game displays the current level in the middle of the simon board. The game's interface is drawn using the html5 canvas element. 
+		</p>
+		<h3><a href="./webportfolio/tictactoe.html">Tic-Tac-Toe Game</a></h3>
+		<img src="./images/tictactoe.png">
+		<p class="description">
+			A web Tic-Tac-Toe game against a simple AI. The player can choose either to start as O (AI goes first) or as X (player goes first). The game will alert the player of the results when the game is over and reset the board so they can play again. The game can be manually reset as well.  
+		</p>
+		<h3><a href="./webportfolio/twitch.html">Twitch API</a></h3>
+		<img src="./images/twitch.png">
+		<p class="description">
+			Uses the Twitch API to retrieve and display information about a list of streamers. The information displayed includes the streamer's icon, the display id, and their status (either Offline or the game they or playing). Streamer that are online are identified with a different background color.
+		</p>
+		<h3><a href="./webportfolio/weather.html">Local Weather</a></h3>
+		<img src="./images/weather.png">
+		<p class="description">
+			Uses the html5 geolocation feature and the Open Weather Map API to get the users local temperature. The background image changes depending on weather it is hot, cold, or mild. Can display in either Celsius or Fahrenheit. 
+		</p>
+		<h3><a href="./webportfolio/wiki.html">Wikipedia Search</a></h3>
+		<img src="./images/wiki.png">
+		<p class="description">
+			Uses the Wikipedia API to search for articles and display the results. Can also send the user to a random article (Wikipedia's Special:Random page). 
+		</p>
+		<h2 id="links">Links</h2>
+		<ul id="linklist">
+			<li>
+				<a href="mailto:raymondhendrix94@gmail.com" target="_top">Email</a>
+			</li>
+			<li>
+				<a href="http://www.github.com/rhendrix">Github</a>
+			</li>
+			<li>
+				<a href="https://www.linkedin.com/in/raymond-hendrix-925396144/">LinkedIn</a>
+			</li>
+		</ul>
+	</div>
+</body>
+</html>

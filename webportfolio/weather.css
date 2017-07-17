@@ -1,0 +1,29 @@
+#content
+{
+	background-color: #111111;
+	color: #eeeeee;
+	text-align: center;
+
+	width: 50%;
+	margin: auto;
+}
+#FBut, #CTemp
+{
+	display: inline;
+}
+#CBut, #FTemp
+{
+	display: none
+}
+#FBut, #CBut
+{
+	cursor: pointer;
+	cursor: hand;
+	background-color: #eeeeee;
+	color: #111111;
+	font-size:1.5em;
+}
+#FTemp, #CTemp
+{
+	font-size:2em;
+}

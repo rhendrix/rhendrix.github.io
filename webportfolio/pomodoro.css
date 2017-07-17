@@ -1,0 +1,36 @@
+body
+{
+	background-color: #111111;
+	color: #eeeeee;
+}
+#heading
+{
+	width: 500px;
+	text-align: center;
+	margin: auto;
+}
+#bLabel
+{
+	float: left;
+}
+#sLabel
+{
+	float: right;
+}
+#bLabel, #sLabel
+{
+	line-height: 1.8;
+}
+#canvas, #display 
+{
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+
+	text-align: center;
+	font-size: 30pt;
+
+	cursor: pointer;
+	cursor: hand;
+}

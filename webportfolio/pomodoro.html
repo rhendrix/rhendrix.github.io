@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Pomodoro Timer</title>
+	<link rel="stylesheet" href="pomodoro.css" type="text/css">
+	<script src="pomodoro.js"></script>
+</head>
+<body>
+	<div id="heading">
+		<h1>Pomodoro Timer</h1>
+		<label id="bLabel">Break Length<br><input type="number" min="1" max="60" step="1" id="break" value="5"></label>
+		<label id="sLabel">Session Length<br><input type="number" min="1" max="60" step="1" id="session" value="25"></label>
+	</div>
+	<div id="display">
+		<span id="curTimer">Session</span>
+		<br>
+		<br>
+		<span id="curTime"></span>
+	</div>
+	<canvas id="canvas" width="500" height="500" onclick="handleStart()"></canvas>
+</body>
+</html>
